@@ -1,45 +1,63 @@
 :root {
-  --branding-colour: rgb(213, 241, 241);
+  --branding-colour: rgb(228, 249, 249);
   --heading-font-family: "Nunito Sans", sans-serif;
   --default-fant-family: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-fant-family);
 }
+.container {
+  margin-left: 54px;
+}
+
 h1,
 h2 {
   font-weight: 700;
   font-family: var(--heading-font-family);
 }
 h1 {
-  font-size: 92px;
+  font-size: 68px;
 }
 h2 {
-  font-size: 64px;
+  font-size: 58px;
 }
 h3 {
-  font-size: 46px;
+  font-size: 36px;
   font-weight: 600;
   font-family: var(--default-fant-family);
+  opacity: 0.8;
+}
+h4,
+h5 {
+  color: #0886e9;
+  opacity: 1.1;
 }
 p {
-  font-size: 18px;
-  margin-top: 100px;
+  font-size: 16px;
+  margin-top: 30px;
 }
+img {
+  border-radius: 10px;
+}
+
 .hero {
   background-color: var(--branding-colour);
   text-align: left;
-  line-height: 2;
-  padding: 20px 40px;
+  padding-top: 36px;
 }
 
 .contact {
   padding: 8px 20px;
   font-size: 22px;
   margin: 50px 40px 30px;
+  background-color: #0886e9;
 }
 #hi-heading {
-  font-size: 62px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  font-size: 38px;
+}
+
+#weatherApp {
+  width: 80%;
+  display: block;
+  box-shadow: 12px;
 }
