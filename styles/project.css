@@ -1,6 +1,6 @@
 :root {
-  --branding-colour: #E4F9F9;
-  --section-colour: #0886ED;
+  --branding-colour: #e4f9f9;
+  --section-colour: #0886ed;
   --heading-font-family: "Nunito Sans", sans-serif;
   --default-fant-family: "Poppins", sans-serif;
 }
@@ -81,49 +81,48 @@ li {
 }
 
 .quote {
-background-color: var(--section-colour);
-color: white;
-text-align: center;
-font-weight: bold;
-font-style:italic;
-}
-.quote p {
-font-size: 28px;
-}
-@media (max-width:900px) {
-h1 {
-  font-size: 56px;
-}
-h2 {
-  font-size: 44px;
-}
-h3 {
-  font-size: 34px;
-  }
-p {
-  margin-top: 10px;
-  line-height: 1.5;
-}
-.project-heading {
+  background-color: var(--section-colour);
+  color: white;
   text-align: center;
-  padding-top: 8px;
-}
-.page-heading {
-  padding: 10px 0px 0px 14px;
-}
-.initial-p {
-  font-size: 18px;
-  margin-top: 20px;
-  line-height: 1.5;
-}
-.hero {
-  padding-top: 28px;
-}
-#hi-heading {
-  font-size: 34px;
+  font-weight: bold;
+  font-style: italic;
 }
 .quote p {
-font-size: 20px;
+  font-size: 28px;
 }
-
+@media (max-width: 900px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 34px;
+  }
+  p {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  .project-heading {
+    text-align: center;
+    padding-top: 8px;
+  }
+  .page-heading {
+    padding: 10px 0px 0px 14px;
+  }
+  .initial-p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  .hero {
+    padding-top: 28px;
+  }
+  #hi-heading {
+    font-size: 34px;
+  }
+  .quote p {
+    font-size: 20px;
+  }
 }
