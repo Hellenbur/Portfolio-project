@@ -1,13 +1,11 @@
 :root {
-  --branding-colour: rgb(228, 249, 249);
+  --branding-colour: #E4F9F9;
+  --section-colour: #0886ED;
   --heading-font-family: "Nunito Sans", sans-serif;
   --default-fant-family: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-fant-family);
-}
-.container {
-  margin-left: 54px;
 }
 
 h1,
@@ -24,20 +22,29 @@ h2 {
 h3 {
   font-size: 36px;
   font-weight: 600;
-  font-family: var(--default-fant-family);
   opacity: 0.8;
 }
 h4,
 h5 {
-  color: #0886e9;
+  color: var(--section-colour);
   opacity: 1.1;
 }
 p {
+  margin-top: 16px;
   font-size: 16px;
-  margin-top: 30px;
+  line-height: 2;
 }
-img {
-  border-radius: 10px;
+li {
+  list-style-type: square;
+}
+.container {
+  margin-left: 54px;
+}
+
+.initial-p {
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 2;
 }
 
 .hero {
@@ -52,12 +59,71 @@ img {
   margin: 50px 40px 30px;
   background-color: #0886e9;
 }
+
 #hi-heading {
   font-size: 38px;
 }
 
-#weatherApp {
+#weatherApp,
+#trekkingApp {
   width: 80%;
   display: block;
-  box-shadow: 12px;
+}
+
+.page-heading {
+  text-align: center;
+  padding: 40px 0px 0px 20px;
+}
+
+.project-heading {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.quote {
+background-color: var(--section-colour);
+color: white;
+text-align: center;
+font-weight: bold;
+font-style:italic;
+}
+.quote p {
+font-size: 28px;
+}
+@media (max-width:900px) {
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 44px;
+}
+h3 {
+  font-size: 34px;
+  }
+p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.project-heading {
+  text-align: center;
+  padding-top: 8px;
+}
+.page-heading {
+  padding: 10px 0px 0px 14px;
+}
+.initial-p {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.hero {
+  padding-top: 28px;
+}
+#hi-heading {
+  font-size: 34px;
+}
+.quote p {
+font-size: 20px;
+}
+
 }
