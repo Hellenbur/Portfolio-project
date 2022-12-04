@@ -91,13 +91,16 @@ li {
   margin: 50px 40px 30px;
   background-color: #0886e9;
 }
-.history {
+.content-end {
   font-size: 20px;
   padding: 10px 22px;
   margin: 30px 40px 40px;
   background-color: #0886e9;
 }
-
+#btn-contact {
+  font-size: 18px;
+  padding: 8px 16px;
+}
 #hi-heading {
   font-size: 38px;
 }
@@ -179,4 +182,10 @@ li {
     margin-right: 24px;
     padding-top: 30px;
   }
+  #btn-contact {
+  font-size: 16px;
+  padding: 6px 14px;
+  display: block;
+  margin-bottom: 10px;
+}
 }
