@@ -27,7 +27,7 @@ h3 {
 h4,
 h5 {
   color: var(--section-colour);
-  opacity: 1.1;
+  font-weight: 700;
 }
 p {
   margin-top: 16px;
@@ -37,6 +37,7 @@ p {
 li {
   list-style-type: square;
 }
+
 .container {
   margin-left: 54px;
 }
@@ -52,30 +53,36 @@ li {
   text-align: left;
   padding-top: 36px;
 }
-.about-section-content {
+.content-section {
+  background-color: var(--branding-colour);
+}
+.content {
   margin-left: 60px;
   padding-top: 40px;
 }
 
-.about-section-content p {
- font-size: 18px;
- text-align: left;
- margin-top: 12px;
- line-height: 1.7; 
+.content p {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 12px;
+  line-height: 1.7;
 }
-.about-section h1 {
- font-size: 60px;
+.content li {
+  list-style-type: none;
 }
-.about-section h2 {
- font-size: 52px;
+.content-section h1 {
+  font-size: 60px;
 }
-.about-section h3{
- font-size: 38px;
+.content-section h2 {
+  font-size: 52px;
 }
-.about-section img{
- display: block;
- margin-left: auto;
- margin-right: auto;
+.content-section h3 {
+  font-size: 38px;
+}
+.content-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact {
@@ -121,6 +128,7 @@ li {
 .quote p {
   font-size: 28px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
@@ -157,19 +165,18 @@ li {
   .quote p {
     font-size: 20px;
   }
-  .about-section h1 {
- font-size: 50px;
-}
-  .about-section h2 {
- font-size: 42px;
-}
-  .about-section h3{
- font-size: 30px;
-}
-  .about-section-content {
-  margin-left: 24px;
-  margin-right: 24px;
-  padding-top: 30px;
-}
-
+  .content-section h1 {
+    font-size: 50px;
+  }
+  .content-section h2 {
+    font-size: 42px;
+  }
+  .content-section h3 {
+    font-size: 30px;
+  }
+  .content {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 30px;
+  }
 }
