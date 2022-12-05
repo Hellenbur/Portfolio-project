@@ -51,7 +51,7 @@ li {
 .hero {
   background-color: var(--branding-colour);
   text-align: left;
-  padding-top: 36px;
+  padding-top: 72px;
 }
 .content-section {
   background-color: var(--branding-colour);
@@ -132,6 +132,25 @@ li {
   font-size: 28px;
 }
 
+.navbar {
+  background-color: white !important;
+}
+.nav-link {
+  font-size: 18px;
+  color: black;
+}
+.nav-link:hover {
+  color: var(--section-colour);
+}
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--section-colour);
+}
+.active {
+  font-weight: 900 !important;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
@@ -160,7 +179,7 @@ li {
     line-height: 1.5;
   }
   .hero {
-    padding-top: 28px;
+    padding-top: 60px;
   }
   #hi-heading {
     font-size: 34px;
